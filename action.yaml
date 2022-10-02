@@ -160,3 +160,4 @@ runs:
       run: |
           rm -rf /tmp/.buildx-cache-${{inputs.buildName}}
           mv /tmp/.buildx-cache-new-${{inputs.buildName}} /tmp/.buildx-cache-${{inputs.buildName}}
+      shell: bash
