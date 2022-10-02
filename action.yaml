@@ -150,7 +150,7 @@ runs:
           secrets:   ${{inputs.secrets}}
           secret-files:   ${{inputs.secret-files}}
           shm-size:   ${{inputs.shm-size}}
-          ssh: ${{inputs.ssh}
+          ssh: ${{inputs.ssh}}
           tags: ${{inputs.tags}}
           target: ${{inputs.target}}
           ulimit: ${{inputs.ulimit}}
