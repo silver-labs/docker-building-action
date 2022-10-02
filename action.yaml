@@ -1,6 +1,6 @@
 name: 'Docker Build'
 description: 'Builds docker using caching techniques'
-inputs:
+inputs: 
   buildName:  # id of input
     description: 'Name of Build'
     required: true
