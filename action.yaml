@@ -134,7 +134,7 @@ runs:
           add-hosts: ${{inputs.add-hosts}}
           allow: ${{inputs.allow}}
           build-args: ${{ inputs.build-args }}
-          build-contexts: ${{inputs.dd}}
+          build-contexts: ${{inputs.build-contexts}}
           cgroup-parent: ${{inputs.cgroup-parent}}
           context:   ${{inputs.context}}
           file:   ${{inputs.file}}
