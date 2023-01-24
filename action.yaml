@@ -53,6 +53,7 @@ inputs:
     required: false
   platforms:
     description: "List of target platforms for build"
+    default: 'linux/amd64'
     required: false
   pull:
     description: "Always attempt to pull all referenced images"
